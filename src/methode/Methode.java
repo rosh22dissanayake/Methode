@@ -17,12 +17,14 @@ public class Methode {
      */
     public static void main(String[] args) {
      
-        int k = my(20,10);
-        System.out.println("Result is="+k);
+        int k = my(20,10,30);
+        System.out.println("Multification is="+k);
+        
     }
     
-    public static int my(int a, int b){
-        int result=a+b;
+    public static int my(int a, int b,int c){
+        int result=a*b*c;
+       
         
         return result;
     }
