@@ -22,11 +22,11 @@ public class Methode {
         
     }
     
-    public static int my(int a, int b,int c){
-        int result=(a*b)/c;
+    public static int my(int p, int q,int r){
+        int d = p*p - 4*q*r;
        
         
-        return result;
+        return d;
     }
 }
 
