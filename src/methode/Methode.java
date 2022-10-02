@@ -17,16 +17,16 @@ public class Methode {
      */
     public static void main(String[] args) {
      
-        int r = my(20,10,5);
+        int r = my(60,5);
         System.out.println("Result is="+r);
         
     }
     
-    public static int my(int p, int q,int r){
-        int d = p*p - 4*q*r;
+    public static int my(int m, int a){
+        int f = m*a;
        
         
-        return d;
+        return f;
     }
 }
 
