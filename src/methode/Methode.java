@@ -17,7 +17,7 @@ public class Methode {
      */
     public static void main(String[] args) {
      
-        int s = code(3,6,8);
+        int s = code(3,6,7);
         System.out.println("Result is="+s);
         
     }
